@@ -1,0 +1,8 @@
+dataset,model,accuracy,f1
+augmented_copula,SVC,0.7063,0.7084
+augmented_ctgan,SVC,0.8125,0.8135
+augmented_tvae,SVC,0.8322,0.8325
+real,SVC,0.8208,0.8219
+synthetic_copula,SVC,0.6357,0.6377
+synthetic_ctgan,SVC,0.8371,0.8382
+synthetic_tvae,SVC,0.8358,0.8353

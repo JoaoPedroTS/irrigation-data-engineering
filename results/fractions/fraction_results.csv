@@ -1,0 +1,177 @@
+dataset,model,accuracy,f1,fractions,n_sample,augmentation,fraction
+real_5pct,Logistic Regression,0.6829,0.6548,0.05,820,none,
+real_5pct,Random Forest,0.7256,0.7072,0.05,820,none,
+real_5pct,k-NN,0.6829,0.6524,0.05,820,none,
+real_5pct,SVC,0.75,0.7254,0.05,820,none,
+ctgan_5pct,Logistic Regression,0.561,0.5266,,820,ctgan,0.05
+ctgan_5pct,Random Forest,0.5732,0.5592,,820,ctgan,0.05
+ctgan_5pct,k-NN,0.5366,0.507,,820,ctgan,0.05
+ctgan_5pct,SVC,0.5579,0.5309,,820,ctgan,0.05
+tvae_5pct,Logistic Regression,0.7835,0.7692,,820,tvae,0.05
+tvae_5pct,Random Forest,0.8201,0.8165,,820,tvae,0.05
+tvae_5pct,k-NN,0.7927,0.7786,,820,tvae,0.05
+tvae_5pct,SVC,0.8201,0.8073,,820,tvae,0.05
+copula_5pct,Logistic Regression,0.6067,0.574,,820,copula,0.05
+copula_5pct,Random Forest,0.5854,0.5666,,820,copula,0.05
+copula_5pct,k-NN,0.5671,0.5446,,820,copula,0.05
+copula_5pct,SVC,0.5945,0.5658,,820,copula,0.05
+real_10pct,Logistic Regression,0.7204,0.6957,0.1,1641,none,
+real_10pct,Random Forest,0.7052,0.6985,0.1,1641,none,
+real_10pct,k-NN,0.6809,0.6537,0.1,1641,none,
+real_10pct,SVC,0.7356,0.7127,0.1,1641,none,
+ctgan_10pct,Logistic Regression,0.6423,0.6118,,1641,ctgan,0.1
+ctgan_10pct,Random Forest,0.6271,0.61,,1641,ctgan,0.1
+ctgan_10pct,k-NN,0.621,0.5939,,1641,ctgan,0.1
+ctgan_10pct,SVC,0.6682,0.6356,,1641,ctgan,0.1
+tvae_10pct,Logistic Regression,0.7489,0.734,,1641,tvae,0.1
+tvae_10pct,Random Forest,0.7565,0.7523,,1641,tvae,0.1
+tvae_10pct,k-NN,0.7458,0.7338,,1641,tvae,0.1
+tvae_10pct,SVC,0.7945,0.7823,,1641,tvae,0.1
+copula_10pct,Logistic Regression,0.5753,0.551,,1641,copula,0.1
+copula_10pct,Random Forest,0.5677,0.5573,,1641,copula,0.1
+copula_10pct,k-NN,0.5982,0.5753,,1641,copula,0.1
+copula_10pct,SVC,0.624,0.6034,,1641,copula,0.1
+real_20pct,Logistic Regression,0.7199,0.6987,0.2,3282,none,
+real_20pct,Random Forest,0.7062,0.6962,0.2,3282,none,
+real_20pct,k-NN,0.7078,0.6835,0.2,3282,none,
+real_20pct,SVC,0.7412,0.7206,0.2,3282,none,
+ctgan_20pct,Logistic Regression,0.7053,0.6727,,3282,ctgan,0.2
+ctgan_20pct,Random Forest,0.6847,0.6771,,3282,ctgan,0.2
+ctgan_20pct,k-NN,0.706,0.6848,,3282,ctgan,0.2
+ctgan_20pct,SVC,0.7319,0.702,,3282,ctgan,0.2
+tvae_20pct,Logistic Regression,0.7768,0.7636,,3282,tvae,0.2
+tvae_20pct,Random Forest,0.7639,0.7636,,3282,tvae,0.2
+tvae_20pct,k-NN,0.786,0.7759,,3282,tvae,0.2
+tvae_20pct,SVC,0.8187,0.8069,,3282,tvae,0.2
+copula_20pct,Logistic Regression,0.5994,0.5704,,3282,copula,0.2
+copula_20pct,Random Forest,0.5941,0.5817,,3282,copula,0.2
+copula_20pct,k-NN,0.6192,0.5981,,3282,copula,0.2
+copula_20pct,SVC,0.6299,0.6075,,3282,copula,0.2
+real_30pct,Logistic Regression,0.7299,0.7087,0.3,4923,none,
+real_30pct,Random Forest,0.6924,0.6874,0.3,4923,none,
+real_30pct,k-NN,0.736,0.714,0.3,4923,none,
+real_30pct,SVC,0.7675,0.7463,0.3,4923,none,
+ctgan_30pct,Logistic Regression,0.7046,0.672,,4923,ctgan,0.3
+ctgan_30pct,Random Forest,0.702,0.6926,,4923,ctgan,0.3
+ctgan_30pct,k-NN,0.7162,0.6952,,4923,ctgan,0.3
+ctgan_30pct,SVC,0.7492,0.7212,,4923,ctgan,0.3
+tvae_30pct,Logistic Regression,0.7218,0.7074,,4923,tvae,0.3
+tvae_30pct,Random Forest,0.7254,0.7239,,4923,tvae,0.3
+tvae_30pct,k-NN,0.7442,0.7323,,4923,tvae,0.3
+tvae_30pct,SVC,0.7817,0.7688,,4923,tvae,0.3
+copula_30pct,Logistic Regression,0.6056,0.5788,,4923,copula,0.3
+copula_30pct,Random Forest,0.5812,0.5737,,4923,copula,0.3
+copula_30pct,k-NN,0.6218,0.6005,,4923,copula,0.3
+copula_30pct,SVC,0.6437,0.6222,,4923,copula,0.3
+real_40pct,Logistic Regression,0.7304,0.7088,0.4,6564,none,
+real_40pct,Random Forest,0.6717,0.6694,0.4,6564,none,
+real_40pct,k-NN,0.7334,0.7181,0.4,6564,none,
+real_40pct,SVC,0.7715,0.7503,0.4,6564,none,
+ctgan_40pct,Logistic Regression,0.6797,0.6471,,6564,ctgan,0.4
+ctgan_40pct,Random Forest,0.6866,0.6831,,6564,ctgan,0.4
+ctgan_40pct,k-NN,0.6969,0.6837,,6564,ctgan,0.4
+ctgan_40pct,SVC,0.7365,0.7239,,6564,ctgan,0.4
+tvae_40pct,Logistic Regression,0.7304,0.7188,,6564,tvae,0.4
+tvae_40pct,Random Forest,0.7224,0.7199,,6564,tvae,0.4
+tvae_40pct,k-NN,0.7532,0.745,,6564,tvae,0.4
+tvae_40pct,SVC,0.7833,0.7726,,6564,tvae,0.4
+copula_40pct,Logistic Regression,0.6062,0.5808,,6564,copula,0.4
+copula_40pct,Random Forest,0.5922,0.5818,,6564,copula,0.4
+copula_40pct,k-NN,0.6062,0.5861,,6564,copula,0.4
+copula_40pct,SVC,0.6432,0.6216,,6564,copula,0.4
+real_50pct,Logistic Regression,0.7337,0.7106,0.5,8205,none,
+real_50pct,Random Forest,0.6661,0.6615,0.5,8205,none,
+real_50pct,k-NN,0.7148,0.694,0.5,8205,none,
+real_50pct,SVC,0.7648,0.742,0.5,8205,none,
+ctgan_50pct,Logistic Regression,0.6709,0.6409,,8205,ctgan,0.5
+ctgan_50pct,Random Forest,0.6743,0.6714,,8205,ctgan,0.5
+ctgan_50pct,k-NN,0.7087,0.6952,,8205,ctgan,0.5
+ctgan_50pct,SVC,0.7288,0.7162,,8205,ctgan,0.5
+tvae_50pct,Logistic Regression,0.7087,0.6855,,8205,tvae,0.5
+tvae_50pct,Random Forest,0.6913,0.6901,,8205,tvae,0.5
+tvae_50pct,k-NN,0.7136,0.6959,,8205,tvae,0.5
+tvae_50pct,SVC,0.7617,0.7391,,8205,tvae,0.5
+copula_50pct,Logistic Regression,0.6115,0.5864,,8205,copula,0.5
+copula_50pct,Random Forest,0.5908,0.5796,,8205,copula,0.5
+copula_50pct,k-NN,0.6146,0.5936,,8205,copula,0.5
+copula_50pct,SVC,0.6395,0.6191,,8205,copula,0.5
+real_60pct,Logistic Regression,0.7345,0.7123,0.6,9846,none,
+real_60pct,Random Forest,0.6533,0.653,0.6,9846,none,
+real_60pct,k-NN,0.7203,0.7019,0.6,9846,none,
+real_60pct,SVC,0.7619,0.7398,0.6,9846,none,
+ctgan_60pct,Logistic Regression,0.6535,0.6194,,9846,ctgan,0.6
+ctgan_60pct,Random Forest,0.6474,0.6415,,9846,ctgan,0.6
+ctgan_60pct,k-NN,0.6702,0.6537,,9846,ctgan,0.6
+ctgan_60pct,SVC,0.7106,0.6873,,9846,ctgan,0.6
+tvae_60pct,Logistic Regression,0.7441,0.7287,,9846,tvae,0.6
+tvae_60pct,Random Forest,0.7182,0.7155,,9846,tvae,0.6
+tvae_60pct,k-NN,0.755,0.7415,,9846,tvae,0.6
+tvae_60pct,SVC,0.7926,0.778,,9846,tvae,0.6
+copula_60pct,Logistic Regression,0.6205,0.5959,,9846,copula,0.6
+copula_60pct,Random Forest,0.5763,0.565,,9846,copula,0.6
+copula_60pct,k-NN,0.6156,0.5945,,9846,copula,0.6
+copula_60pct,SVC,0.6413,0.621,,9846,copula,0.6
+real_70pct,Logistic Regression,0.7437,0.721,0.7,11487,none,
+real_70pct,Random Forest,0.6549,0.6518,0.7,11487,none,
+real_70pct,k-NN,0.7276,0.7081,0.7,11487,none,
+real_70pct,SVC,0.7685,0.7455,0.7,11487,none,
+ctgan_70pct,Logistic Regression,0.652,0.618,,11487,ctgan,0.7
+ctgan_70pct,Random Forest,0.6342,0.63,,11487,ctgan,0.7
+ctgan_70pct,k-NN,0.6649,0.6482,,11487,ctgan,0.7
+ctgan_70pct,SVC,0.7095,0.6856,,11487,ctgan,0.7
+tvae_70pct,Logistic Regression,0.7404,0.7278,,11487,tvae,0.7
+tvae_70pct,Random Forest,0.7136,0.7113,,11487,tvae,0.7
+tvae_70pct,k-NN,0.7554,0.7445,,11487,tvae,0.7
+tvae_70pct,SVC,0.7946,0.7825,,11487,tvae,0.7
+copula_70pct,Logistic Regression,0.6242,0.5987,,11487,copula,0.7
+copula_70pct,Random Forest,0.5826,0.5745,,11487,copula,0.7
+copula_70pct,k-NN,0.6176,0.5979,,11487,copula,0.7
+copula_70pct,SVC,0.6464,0.6255,,11487,copula,0.7
+real_80pct,Logistic Regression,0.7384,0.7148,0.8,13128,none,
+real_80pct,Random Forest,0.6462,0.6419,0.8,13128,none,
+real_80pct,k-NN,0.7087,0.688,0.8,13128,none,
+real_80pct,SVC,0.7677,0.7437,0.8,13128,none,
+ctgan_80pct,Logistic Regression,0.6815,0.6449,,13128,ctgan,0.8
+ctgan_80pct,Random Forest,0.6502,0.644,,13128,ctgan,0.8
+ctgan_80pct,k-NN,0.6782,0.6624,,13128,ctgan,0.8
+ctgan_80pct,SVC,0.7209,0.6946,,13128,ctgan,0.8
+tvae_80pct,Logistic Regression,0.691,0.6634,,13128,tvae,0.8
+tvae_80pct,Random Forest,0.6797,0.6742,,13128,tvae,0.8
+tvae_80pct,k-NN,0.7178,0.6967,,13128,tvae,0.8
+tvae_80pct,SVC,0.7696,0.7447,,13128,tvae,0.8
+copula_80pct,Logistic Regression,0.6137,0.588,,13128,copula,0.8
+copula_80pct,Random Forest,0.5687,0.5583,,13128,copula,0.8
+copula_80pct,k-NN,0.5988,0.5774,,13128,copula,0.8
+copula_80pct,SVC,0.6359,0.6149,,13128,copula,0.8
+real_90pct,Logistic Regression,0.7305,0.708,0.9,14769,none,
+real_90pct,Random Forest,0.6561,0.6506,0.9,14769,none,
+real_90pct,k-NN,0.7299,0.7079,0.9,14769,none,
+real_90pct,SVC,0.7681,0.7447,0.9,14769,none,
+ctgan_90pct,Logistic Regression,0.6743,0.6384,,14769,ctgan,0.9
+ctgan_90pct,Random Forest,0.6471,0.6419,,14769,ctgan,0.9
+ctgan_90pct,k-NN,0.6755,0.6598,,14769,ctgan,0.9
+ctgan_90pct,SVC,0.7211,0.6889,,14769,ctgan,0.9
+tvae_90pct,Logistic Regression,0.698,0.6778,,14769,tvae,0.9
+tvae_90pct,Random Forest,0.6754,0.6727,,14769,tvae,0.9
+tvae_90pct,k-NN,0.719,0.7023,,14769,tvae,0.9
+tvae_90pct,SVC,0.759,0.7398,,14769,tvae,0.9
+copula_90pct,Logistic Regression,0.6114,0.586,,14769,copula,0.9
+copula_90pct,Random Forest,0.5877,0.5774,,14769,copula,0.9
+copula_90pct,k-NN,0.6112,0.5901,,14769,copula,0.9
+copula_90pct,SVC,0.6486,0.6256,,14769,copula,0.9
+real_100pct,Logistic Regression,0.7402,0.7174,1.0,16411,none,
+real_100pct,Random Forest,0.6549,0.6501,1.0,16411,none,
+real_100pct,k-NN,0.7131,0.6926,1.0,16411,none,
+real_100pct,SVC,0.7676,0.7448,1.0,16411,none,
+ctgan_100pct,Logistic Regression,0.6827,0.6536,,16411,ctgan,1.0
+ctgan_100pct,Random Forest,0.6532,0.649,,16411,ctgan,1.0
+ctgan_100pct,k-NN,0.6766,0.6619,,16411,ctgan,1.0
+ctgan_100pct,SVC,0.7196,0.7039,,16411,ctgan,1.0
+tvae_100pct,Logistic Regression,0.7209,0.6991,,16411,tvae,1.0
+tvae_100pct,Random Forest,0.6937,0.6889,,16411,tvae,1.0
+tvae_100pct,k-NN,0.7313,0.7123,,16411,tvae,1.0
+tvae_100pct,SVC,0.777,0.7556,,16411,tvae,1.0
+copula_100pct,Logistic Regression,0.6117,0.5855,,16411,copula,1.0
+copula_100pct,Random Forest,0.5797,0.5694,,16411,copula,1.0
+copula_100pct,k-NN,0.6049,0.5835,,16411,copula,1.0
+copula_100pct,SVC,0.6364,0.6143,,16411,copula,1.0

@@ -1,0 +1,29 @@
+dataset,model,accuracy,f1
+augmented_copula,SVC,0.7063,0.7084
+augmented_copula,Logistic Regression,0.7021,0.7041
+augmented_copula,k-NN,0.6767,0.6775
+augmented_copula,Random Forest,0.6558,0.6562
+augmented_ctgan,SVC,0.8125,0.8135
+augmented_ctgan,Logistic Regression,0.7961,0.7969
+augmented_ctgan,k-NN,0.7888,0.79
+augmented_ctgan,Random Forest,0.767,0.768
+augmented_tvae,SVC,0.8322,0.8325
+augmented_tvae,k-NN,0.8025,0.8031
+augmented_tvae,Logistic Regression,0.775,0.7757
+augmented_tvae,Random Forest,0.7662,0.7667
+real,SVC,0.8208,0.8219
+real,Logistic Regression,0.8002,0.8013
+real,k-NN,0.777,0.7787
+real,Random Forest,0.7368,0.7386
+synthetic_copula,SVC,0.6357,0.6377
+synthetic_copula,Logistic Regression,0.6315,0.6332
+synthetic_copula,k-NN,0.5899,0.5823
+synthetic_copula,Random Forest,0.5886,0.5804
+synthetic_ctgan,SVC,0.8371,0.8382
+synthetic_ctgan,Logistic Regression,0.8326,0.833
+synthetic_ctgan,k-NN,0.8169,0.817
+synthetic_ctgan,Random Forest,0.8159,0.8159
+synthetic_tvae,SVC,0.8358,0.8353
+synthetic_tvae,k-NN,0.8169,0.8169
+synthetic_tvae,Random Forest,0.7999,0.7999
+synthetic_tvae,Logistic Regression,0.7698,0.7697
